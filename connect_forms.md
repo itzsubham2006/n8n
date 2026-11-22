@@ -32,6 +32,7 @@ function onSubmit(e) {
 
 
 
-and in var POST_URL,  paste the link of ngrok
+and in var POST_URL,  paste the link of ngrok (for example = https://pushy-shirt-herring.ngrok-free.dev/webhook-test/cf09b45c-b4af-4f12-ba8e-a483d0f2f7c8)
+for production donot use webhook-test, use 'webhook'
 
 3. In App script, also add the triggers seting, onSubmit -> Head -> From form -> On form submit -> Notify me immediately
